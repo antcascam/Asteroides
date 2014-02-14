@@ -1,0 +1,77 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/stars"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="30dip"
+    tools:context=".Asteroids" >
+
+    <TextView
+        android:id="@+id/title"
+        style="@style/AsteroidsText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top"
+        android:layout_marginBottom="80dip"
+        android:layout_marginTop="-80dip"
+        android:gravity="center"
+        android:text="@string/app_title"
+        android:textSize="50sp" />
+
+    <Button
+        android:id="@+id/play"
+        style="@style/AsteroidsText.Buttons"
+        android:layout_width="430dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dp"
+        android:layout_marginTop="4dp"
+        android:text="@string/play"
+        android:textSize="40sp" />
+
+    <Button
+        android:id="@+id/properties"
+        style="@style/AsteroidsText.Buttons"
+        android:layout_width="430dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dp"
+        android:layout_marginTop="4dp"
+        android:onClick="launchPreferences"
+        android:text="@string/settings"
+        android:textSize="40sp" />
+
+    <Button
+        android:id="@+id/score"
+        style="@style/AsteroidsText.Buttons"
+        android:layout_width="430dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dp"
+        android:layout_marginTop="4dp"
+        android:onClick="launchScore"
+        android:text="@string/about"
+        android:textSize="40sp" />
+
+    <Button
+        android:id="@+id/about"
+        style="@style/AsteroidsText.Buttons"
+        android:layout_width="430dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dp"
+        android:layout_marginTop="4dp"
+        android:onClick="launchAbout"
+        android:text="@string/about"
+        android:textSize="40sp" />
+
+    <Button
+        android:id="@+id/exit"
+        style="@style/AsteroidsText.Buttons"
+        android:layout_width="430dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dp"
+        android:layout_marginTop="4dp"
+        android:onClick="finish"
+        android:text="@string/exit"
+        android:textSize="40sp" />
+
+</LinearLayout>

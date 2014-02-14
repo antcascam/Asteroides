@@ -1,0 +1,83 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/stars"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="30dip"
+    tools:context="Asteroids" >
+
+    <TextView
+        style="@style/AsteroidsText"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dip"
+        android:layout_marginTop="-5dip"
+        android:gravity="center"
+        android:text="@string/app_title"
+        android:textSize="25sp" />
+
+    <TableLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center"
+        android:stretchColumns="*" >
+
+        <TableRow>
+
+            <Button
+                android:id="@+id/play"
+                style="@style/AsteroidsText.Buttons"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:text="@string/play" />
+
+            <Button
+                android:id="@+id/properties"
+                style="@style/AsteroidsText.Buttons"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:onClick="launchPreferences"
+                android:text="@string/settings" />
+
+        </TableRow>
+
+        <TableRow>
+
+            <Button
+                android:id="@+id/score"
+                style="@style/AsteroidsText.Buttons"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:onClick="launchScore"
+                android:text="@string/scores" />
+
+            <Button
+                android:id="@+id/about"
+                style="@style/AsteroidsText.Buttons"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:onClick="launchAbout"
+                android:text="@string/about" />
+
+        </TableRow>
+
+            <Button
+                android:id="@+id/exit"
+                style="@style/AsteroidsText.Buttons"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="150dp"
+                android:layout_marginRight="150dp"
+                android:layout_marginTop="4dp"
+                android:onClick="finish"
+                android:text="@string/exit" />
+
+    </TableLayout>
+
+</LinearLayout>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="play">Play</string>
+    <string name="settings">Preferences</string>
+    <string name="about">About</string>
+    <string name="exit">Exit</string>
+    <string name="scores">Scores</string>
+    <string name="app_title">Asteroids</string>
+    <string name="app_name">Asteroids</string>
+    <string name="menu_settings">Properties</string>
+    <string name="about_description">This application has been developed as an example in an Andorid course to show how new activities can be thrown from the main activity.</string>
+    <string name="noscore">No scores.</string>
+    <string name="other">Others</string>
+    <string name="playmusic">Play music</string>
+    <string name="playmusic_subtitle">Background music will be played</string>
+    <string name="graphics">Graphics types</string>
+    <string name="graphics_subtitle">Choose the graphics rendering</string>
+    <string name="fragments">Number of fragments</string>
+    <string name="fragments_subtitle">Parts which is divided into an asteorid</string>
+    <string name="selection">Selected Score</string>
+    <string name="label_about">About&#8230;</string>
+    <string name="label_preferences">Settings</string>
+    <string name="label_score">Scores</string>
+    <string name="icontext">Asteroid Icon</string>
+    
+
+</resources>
